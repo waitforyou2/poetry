@@ -28,7 +28,8 @@ public class Generator {
             "user",
             "author",
             "content",
-            "user_favorite"
+            "user_favorite",
+            "type"
 
     };
 

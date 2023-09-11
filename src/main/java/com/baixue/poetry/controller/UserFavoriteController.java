@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
  * </p>
  *
  * @author bzz
- * @since 2023-09-10
+ * @since 2023-09-11
  */
 @RestController
 @RequestMapping("/poetry/user-favorite")

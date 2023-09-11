@@ -13,7 +13,7 @@ import lombok.EqualsAndHashCode;
  * </p>
  *
  * @author bzz
- * @since 2023-09-10
+ * @since 2023-09-11
  */
 @Data
 @EqualsAndHashCode(callSuper = false)
@@ -37,15 +37,20 @@ public class Content implements Serializable {
     private String content;
 
     /**
-     * 作者ID
+     * 作者名字
      */
-    private Integer authorId;
+    private Integer authorName;
 
     /**
      * 创建时间
      */
     @TableField(fill = FieldFill.INSERT)
     private LocalDateTime createTime;
+
+    /**
+     * 类型，1是用户发布的诗词，0是系统自带的诗
+     */
+    private Integer type;
 
 
 }

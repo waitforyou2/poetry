@@ -12,7 +12,7 @@ import org.springframework.stereotype.Service;
  * </p>
  *
  * @author bzz
- * @since 2023-09-10
+ * @since 2023-09-11
  */
 @Service
 public class AuthorServiceImpl extends ServiceImpl<AuthorMapper, Author> implements AuthorService {
